@@ -240,7 +240,7 @@ hr{
 .showcase2 {
     width: 100%;
     height: 550px;
-    background:url(img/logo/ofimatica2.jpg) no-repeat center center/cover;  
+    background:url(img/logo ofimatica2.jpg) no-repeat center center/cover;  
     padding: 50px;
     margin-bottom: 50px;
     display:flex; 
