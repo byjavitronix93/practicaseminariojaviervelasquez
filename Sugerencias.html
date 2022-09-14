@@ -52,12 +52,14 @@
     </div>
 
     <section class="form-register">
+        <form id="formulario">
         <center><h4>¡Envíanos tu sugerencia!</h4></center>
         <input class="controls"  type="text" name="Nombre" id="nombres" placeholder="Ingrese su nombre">
         <input class="controls" type="email" name="Nombre" id="nombres" placeholder="Ingrese su correo electrónico">
         <input class="controls1" type="text" name="Nombre" id="nombres" placeholder="Ingrese su mensaje">
         <p>Estoy de acuerdo con los<a href="#"> términos y condiciones.</a></p>
-        <center><a href="#" class="buttons"> Enviar <i class="fas fa-angle-double-right"></i></a></center>
+        <center><a href="#" class="buttons" onclick=" return validar();"> Enviar <i class="fas fa-angle-double-right"></i></a></button></center>
+    </form>
 
     </section>
 </body>
@@ -84,6 +86,7 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 <!----- CUSTOM JS ----->
 <script src="main.js"></script>
-    
+<!----- FORMULARIO ----->
+<script type="text/javascript" src="./index.js"></script>    
 </body>
 </html>
